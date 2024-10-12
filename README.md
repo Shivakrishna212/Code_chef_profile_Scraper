@@ -1,4 +1,4 @@
-# Codw_chef_profil_Scraper
+# Code_chef_profil_Scraper
  profiel scraper using beautiful soup 
  you can just run the program but before that install beautiful soup using the command
 
