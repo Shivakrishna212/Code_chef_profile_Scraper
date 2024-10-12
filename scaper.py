@@ -14,5 +14,5 @@ def scrapecodechef(username):
     details['latest_rank'] = s.find_all("div",id="global-rank-all")[0].find("strong").contents[0]
     details['current_rating' ] = s.find_all("div",class_="rating-number")[0].contents[0]
     return details
-print(scrapecodechef("shivakrishna21"))
+print(scrapecodechef(input()))
 
